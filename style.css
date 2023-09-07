@@ -45,9 +45,6 @@ input::placeholder {
   left: 5.5rem;
 }
 
-
-
-
 button {
   border: none;
   width: 60px;
@@ -59,6 +56,11 @@ button {
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
   cursor: pointer;
   border-radius: 50%;
+}
+
+button:hover {
+  color: gray;
+  transition: 0.3;
 }
 
 .equal-btn {
