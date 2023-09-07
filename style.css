@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+*::selection {
+  background-color: transparent;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+  border: 1px solid #717377;
+  padding: 20px;
+  border-radius: 16px;
+  background: transparent;
+
+  box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+input {
+  width: 320px;
+  background: transparent;
+  border: none;
+  margin: 10px;
+  box-shadow: 0px 3px 15px rgb(84, 84, 84, 0.1);
+  text-align: right;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+input::placeholder {
+  color: white;
+  text-align: right;
+  position: relative;
+  left: 5.5rem;
+}
+
+
+
+
+button {
+  border: none;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.equal-btn {
+  background-color: #fb7c14;
+}
+
+.operator {
+  color: #6dee0a;
+}
+
+.copyright {
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: 40%;
+  opacity: 0.2;
+}
+
+/* closed */
